@@ -9,6 +9,7 @@ li {
 }
 
 .create-update-form {
+  justify-content: center;
   padding: 5px;
   margin: 5px;
   background: aqua;
@@ -16,4 +17,32 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.mainHeader {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.makeBurgerForm {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  border: solid;
+}
+
+.noDevoured {
+  padding: 5px;
+  padding-left: 10px;
+  border: solid;
+}
+
+.yesDevoured {
+  padding: 5px;
+  padding-right: 10px;
+  border: solid;
 }

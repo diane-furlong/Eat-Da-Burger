@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         method: 'DELETE',
       }).then((res) => {
         console.log(res);
-        console.log(`Deleted cat: ${id}`);
+        console.log(`Deleted burger: ${id}`);
 
         // Reload the page
         location.reload();
