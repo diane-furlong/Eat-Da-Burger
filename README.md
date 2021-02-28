@@ -35,7 +35,7 @@ If running application locally, this requires "npm i" in the command terminal to
 The deployed application can be found here: https://.herokuapp.com/
 
 Homepage:
-![homepage screenshot](./assets/homepage_screenshot.png)
+![screenshot](./public/assets/screenshot/SS-burger.jpg)
 
     
 ## Contributions
