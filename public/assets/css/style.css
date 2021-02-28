@@ -1,7 +1,10 @@
+body {
+  background-color: grey;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
 }
 
 .label {
@@ -12,7 +15,6 @@ li {
   justify-content: center;
   padding: 5px;
   margin: 5px;
-  background: aqua;
 }
 
 .form-group {
@@ -20,12 +22,17 @@ li {
 }
 
 .mainHeader {
+  font-family: 'Fredoka One', cursive;
+  font-size: 70px;
   text-align: center;
   padding: 5px;
   margin: 5px;
+  color: goldenrod;
+  background-color: green;
 }
 
 .makeBurgerForm {
+  font-family: 'Fredoka One', cursive;
   padding: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -35,14 +42,29 @@ li {
   border: solid;
 }
 
+.topRow {
+  height:inherit;
+}
+
 .noDevoured {
-  padding: 5px;
-  padding-left: 10px;
-  border: solid;
+  background-image: url("receipt-photo.png");
+  background-size: 315px 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  align-content: center;
 }
 
 .yesDevoured {
-  padding: 5px;
-  padding-right: 10px;
-  border: solid;
+  background-image: url("receipt-photo.png");
+  background-size: 315px 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+
+#burgerPic {
+  width: 100%;
 }

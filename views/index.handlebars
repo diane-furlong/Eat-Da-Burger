@@ -1,40 +1,47 @@
 <h1 class="mainHeader">Eat Da Burger!</h1>
-<br>
-<br>
-<br>
-<div class="row">
-  <div class="col-1">
-  </div>
-  <div class="col-4 noDevoured">
-    <h2>Hamburgers available for devourment:</h2>
 
-    <ul>
-      {{#each burgers}}
-      {{#unless devour}}
-      {{> burgers/burger-block devour=true}}
-      {{/unless}}
-      {{/each}}
-    </ul>
+<br>
+<br>
+<br>
+
+<div class="row topRow">
+
+    <div class="col-1">
+    </div>
+    <div class="col-4 noDevoured">
+      <br>
+      <h2>Hamburgers available<br>to devour:</h2>
+      
+        {{#each burgers}}
+        {{#unless devour}}
+        {{> burgers/burger-block devour=true}}
+        {{/unless}}
+        {{/each}}
+      
+   
   </div>
   <div class="col-2">
-
+    <img id="burgerPic" src="\assets\css\burger.png" alt="burger clipart">
   </div>
-  <div class="col-4 yesDevoured">
-    <h2>Already devoured burgers:</h2>
-
-    <ul>
-      {{#each burgers}}
-      {{#if devour}}
-      {{> burgers/burger-block devour=false}}
-      {{/if}}
-      {{/each}}
-    </ul>
-  </div>
-  <div class="col-1">
-  </div>
+  
+    <div class="col-4 yesDevoured">
+      <br>
+      <h2>Devoured<br>burgers:</h2>
+      
+        {{#each burgers}}
+        {{#if devour}}
+        {{> burgers/burger-block devour=false}}
+        {{/if}}
+        {{/each}}
+      
+    </div>
+    <div class="col-1">
+    </div>
 </div>
+
 <br>
 <br>
+
 <div class="makeBurgerForm">
   <h2>Make a Burger</h2>
 
