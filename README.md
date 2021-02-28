@@ -32,10 +32,10 @@ If running application locally, this requires "npm i" in the command terminal to
     
 ## Usage
     
-The deployed application can be found here: https://.herokuapp.com/
+The deployed application can be found here: https://eatin-da-burg.herokuapp.com/
 
 Homepage:
-![homepage screenshot](./assets/homepage_screenshot.png)
+![screenshot](./public/assets/screenshot/SS-burger.jpg)
 
     
 ## Contributions
